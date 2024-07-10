@@ -159,3 +159,6 @@ footer, a {
   font-style: var(--heading-font);
   font-size: 15px;
 }
+p {
+  font-size: 25px;
+}
