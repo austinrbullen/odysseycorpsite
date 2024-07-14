@@ -162,3 +162,59 @@ footer, a {
 p {
   font-size: 20px;
 }
+/* Page 2 */ 
+.eventsforthisweek {
+  background-color: #396E94;
+  padding: 5px;
+}
+
+.eventsforthisweek h2 {
+  background-color: #004a7c;
+  padding: 5px;
+  color: white;
+}
+
+.eventsimg {
+grid-column: 1/3;
+grid-row: 1/2;
+align-items: center;
+
+}
+
+.eventspic {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-column: 1/2;
+  padding: 10px;
+}
+
+.eventsone {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 1/2;
+}
+.eventstwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 1/2;
+
+}
+.eventsthree {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 1/2;
+
+}
+
+.paragraph {
+  grid-column: 2/3;
+  margin: 10px;
+  background-color: #004a7c;
+}
+
+.msg .join {
+  display: grid;
+  grid-template-rows: 1fr;
+  align-content: center;
+}
