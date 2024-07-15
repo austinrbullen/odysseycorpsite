@@ -58,6 +58,8 @@ header {
   align-items: center;
   padding: 1em;
   text-align: center;
+  font-size: 24px;
+  font-weight: bold;
 
 }
 #hero-img{
@@ -111,7 +113,7 @@ p.colored {
 }
 
 nav, footer, .join {
-  background-color: var(--nav-hover-link-color);
+  background-color: #fed18a;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -157,7 +159,8 @@ footer, p {
 }
 footer, a {
   font-style: var(--heading-font);
-  font-size: 15px;
+  font-size: 24px;
+  font-weight: bold;
 }
 p {
   font-size: 20px;
