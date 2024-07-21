@@ -219,3 +219,66 @@ align-items: center;
   grid-template-rows: 1fr;
   align-content: center;
 }
+/* Page 3 */ 
+
+.invitelink {
+  padding: 10px;
+  border-width: 5px;
+  border-color: #001828;
+  grid-row: 5/6;
+}
+
+.guides {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px 1fr 1fr 1fr 100px;
+  background-color: #396E94;
+  padding: 100px;
+  justify-content: center;
+}
+
+.guideimgone {
+grid-column: 2/3;
+grid-row: 2/3;
+align-content: center;
+margin-top: 55px;
+}
+.guideimgtwo {
+grid-column: 2/3;
+grid-row: 3/4;
+align-content: center;
+margin-top: 55px;
+
+}
+
+.guideimgthree {
+grid-column: 2/3;
+grid-row: 4/5;
+align-content: center;
+margin-top: 105px;
+
+}
+
+.guideonenotes {
+grid-column: 1/2;
+grid-row: 2/3;
+border-radius: 5px;
+border-color: white;
+border-style: solid;}
+
+.guidetwonotes {
+grid-column: 1/2;
+grid-row: 3/4;
+border-radius: 5px;
+border-color: white;
+border-style: solid;
+}
+
+.guidethreenotes {
+grid-column: 1/2;
+grid-row: 4/5;
+border-radius: 5px;
+border-color: white;
+border-style: solid;
+}
+
